@@ -1,0 +1,44 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # === Ajouts pour la communication avec ton backend ===
+  dio: ^5.4.0                # Client HTTP rapide (similaire à Retrofit en Java)
+  retrofit: ^4.1.0           # Retrofit version Flutter/Dart
+  json_annotation: ^4.9.0    # Pour la sérialisation/désérialisation JSON
+  logger: ^2.0.2+1           # Pour debug tes appels API
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # Générateurs de code pour Retrofit & JSON
+  build_runner: ^2.4.11
+  retrofit_generator: ^8.1.0
+  json_serializable: ^6.9.0
+
+flutter:
+  uses-material-design: true
+
+  # Si tu veux ajouter des images/assets plus tard :
+  # assets:
+  #   - assets/images/
+
+  # Si tu veux ajouter des fonts :
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
