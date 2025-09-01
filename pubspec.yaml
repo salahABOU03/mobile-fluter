@@ -33,6 +33,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  # === Activer les assets pour les images ===
+  assets:
+    - assets/images/
   # Si tu veux ajouter des images/assets plus tard :
   # assets:
   #   - assets/images/
